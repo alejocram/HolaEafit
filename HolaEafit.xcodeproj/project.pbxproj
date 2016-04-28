@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5963A00A1CD1CCB80043C7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963A0091CD1CCB80043C7EA /* AppDelegate.swift */; };
+		5963A00C1CD1CCB80043C7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963A00B1CD1CCB80043C7EA /* ViewController.swift */; };
+		5963A00F1CD1CCB80043C7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5963A00D1CD1CCB80043C7EA /* Main.storyboard */; };
+		5963A0111CD1CCB80043C7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5963A0101CD1CCB80043C7EA /* Assets.xcassets */; };
+		5963A0141CD1CCB80043C7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5963A0121CD1CCB80043C7EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5963A0061CD1CCB80043C7EA /* HolaEafit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaEafit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5963A0091CD1CCB80043C7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5963A00B1CD1CCB80043C7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5963A00E1CD1CCB80043C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5963A0101CD1CCB80043C7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5963A0131CD1CCB80043C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5963A0151CD1CCB80043C7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5963A0031CD1CCB80043C7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59639FFD1CD1CCB70043C7EA = {
+			isa = PBXGroup;
+			children = (
+				5963A0081CD1CCB80043C7EA /* HolaEafit */,
+				5963A0071CD1CCB80043C7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5963A0071CD1CCB80043C7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5963A0061CD1CCB80043C7EA /* HolaEafit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5963A0081CD1CCB80043C7EA /* HolaEafit */ = {
+			isa = PBXGroup;
+			children = (
+				5963A0091CD1CCB80043C7EA /* AppDelegate.swift */,
+				5963A00B1CD1CCB80043C7EA /* ViewController.swift */,
+				5963A00D1CD1CCB80043C7EA /* Main.storyboard */,
+				5963A0101CD1CCB80043C7EA /* Assets.xcassets */,
+				5963A0121CD1CCB80043C7EA /* LaunchScreen.storyboard */,
+				5963A0151CD1CCB80043C7EA /* Info.plist */,
+			);
+			path = HolaEafit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5963A0051CD1CCB80043C7EA /* HolaEafit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5963A0181CD1CCB80043C7EA /* Build configuration list for PBXNativeTarget "HolaEafit" */;
+			buildPhases = (
+				5963A0021CD1CCB80043C7EA /* Sources */,
+				5963A0031CD1CCB80043C7EA /* Frameworks */,
+				5963A0041CD1CCB80043C7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaEafit;
+			productName = HolaEafit;
+			productReference = 5963A0061CD1CCB80043C7EA /* HolaEafit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59639FFE1CD1CCB70043C7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Eafit;
+				TargetAttributes = {
+					5963A0051CD1CCB80043C7EA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5963A0011CD1CCB80043C7EA /* Build configuration list for PBXProject "HolaEafit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59639FFD1CD1CCB70043C7EA;
+			productRefGroup = 5963A0071CD1CCB80043C7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5963A0051CD1CCB80043C7EA /* HolaEafit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5963A0041CD1CCB80043C7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963A0141CD1CCB80043C7EA /* LaunchScreen.storyboard in Resources */,
+				5963A0111CD1CCB80043C7EA /* Assets.xcassets in Resources */,
+				5963A00F1CD1CCB80043C7EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5963A0021CD1CCB80043C7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963A00C1CD1CCB80043C7EA /* ViewController.swift in Sources */,
+				5963A00A1CD1CCB80043C7EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5963A00D1CD1CCB80043C7EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5963A00E1CD1CCB80043C7EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5963A0121CD1CCB80043C7EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5963A0131CD1CCB80043C7EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5963A0161CD1CCB80043C7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5963A0171CD1CCB80043C7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5963A0191CD1CCB80043C7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaEafit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.edu.eafit.HolaEafit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5963A01A1CD1CCB80043C7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaEafit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.edu.eafit.HolaEafit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5963A0011CD1CCB80043C7EA /* Build configuration list for PBXProject "HolaEafit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5963A0161CD1CCB80043C7EA /* Debug */,
+				5963A0171CD1CCB80043C7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5963A0181CD1CCB80043C7EA /* Build configuration list for PBXNativeTarget "HolaEafit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5963A0191CD1CCB80043C7EA /* Debug */,
+				5963A01A1CD1CCB80043C7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59639FFE1CD1CCB70043C7EA /* Project object */;
+}
